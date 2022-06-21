@@ -1,10 +1,11 @@
 import './App.css';
-import Card from './Card';
+import React from 'react';
+import HomeContainer from './containers/HomeContainer';
 
 function App() {
   return (
     <div className='App'>
-      <Card data={{ name: 'Baibhav KC', age: 23 }} />
+      <HomeContainer />
     </div>
   );
 }

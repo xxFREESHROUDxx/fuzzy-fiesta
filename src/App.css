@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+/* ============== My Style ================*/
+
+.item {
+  float: left;
+  width: 120px;
+  padding: 20px;
+  height: 70px;
+}
+
+.cart-wrapper {
+  height: 100px;
+  width: 500px;
+  border: 1px solid #ccc;
+  margin-left: 10%;
+}
+
+.img-wrapper img {
+  height: 80px;
+  margin-top: -10px;
+}
+
+.btn-wrapper button {
+  background-color: red;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+  color: #fff;
+  box-shadow: #333 0px 1px 5px;
+}
+
+.add-to-cart {
+  float: right;
+  margin-right: 20px;
+}
+
+/* ============== End of my Style ================*/
